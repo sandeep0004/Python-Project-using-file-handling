@@ -1,3 +1,4 @@
+#The functions used in this program has been saved in a file named as SMS.py
 print('_'*55)
 print("\n****** Welcome to Student Management System ******")
 
