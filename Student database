@@ -1,0 +1,35 @@
+print('_'*55)
+print("\n****** Welcome to Student Management System ******")
+
+from SMS import *
+
+while True:
+    print('_'*55)
+    print(' '*55)
+    print("\nOptions:-")
+    print("\n1. To view list of students")
+    print("2. To add a new student")
+    print("3. To remove a student")
+    print("4. To search a student")
+    print("5. Exit the program")
+    x=int(input("\nEnter your choice:- "))
+    if(x==1):
+        view()
+    elif(x==2):
+        add()
+    elif(x==3):
+        delete()
+    elif(x==4):
+        search()
+    elif(x==5):
+        exit()
+    else:
+        print("Wrong Input")
+        print('_'*55)
+    g=str(input("\nPress 'Y' to continue and 'N' for exiting: "))
+    if(g=='Y' or g=='y'):
+        continue
+    elif(g=='N' or 'n'):
+        exit()
+
+    
